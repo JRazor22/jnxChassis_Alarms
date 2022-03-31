@@ -3,12 +3,14 @@
 Juniper MX 204 Chassis Alarm [Python Script]
 
 # Description:
-    This script is written for Juniper MX204 chassis alarm (Red and Yellow state).
-    Juniper Chassis Alarm Red State OID: .1.3.6.1.4.1.2636.3.4.2.3.1.0
-    Juniper Chassis Alarm Red State OID: .1.3.6.1.4.1.2636.3.4.2.2.1.0
+This script is written for Juniper MX204 chassis alarm (Red and Yellow state).
+
+Juniper Chassis Alarm Red State OID: .1.3.6.1.4.1.2636.3.4.2.3.1.0
+
+Juniper Chassis Alarm Red State OID: .1.3.6.1.4.1.2636.3.4.2.2.1.0
 
 # Usage: 
-    To use this script you need to put script in /var/run/scripts/snmp directory on MX204 device.
+To use this script you need to put script in /var/run/scripts/snmp directory on MX204 device.
 
 # Configuration: 
 To get this script working you need to do same configuration on Juniper MX204:
@@ -30,5 +32,6 @@ To get this script working you need to do same configuration on Juniper MX204:
     3 - Alarm ON
 
 # OID sources:
-    jnxRedAlarmState: https://apps.juniper.net/mib-explorer/search.jsp#object=jnxRedAlarmState&product=Junos%20OS&release=20.3R3
-   	jnxYellowAlarmState: https://apps.juniper.net/mib-explorer/search.jsp#object=jnxYellowAlarmState&product=Junos%20OS&release=20.3R3
+jnxRedAlarmState: https://apps.juniper.net/mib-explorer/search.jsp#object=jnxRedAlarmState&product=Junos%20OS&release=20.3R3
+
+jnxYellowAlarmState: https://apps.juniper.net/mib-explorer/search.jsp#object=jnxYellowAlarmState&product=Junos%20OS&release=20.3R3
