@@ -6,7 +6,8 @@
 # Usage: 
     To use this script you need to put script in /var/run/scripts/snmp directory on MX204 device.
 
-# Configuration: To get this script working you need to do same configuration on Juniper MX204:
+# Configuration: 
+To get this script working you need to do same configuration on Juniper MX204:
     set system scripts snmp file <script_name.py> oid <.OID>
     set system scripts snmp file <script_name.py> python-script-user <user_name> (user must be super-user)
     set system scripts language python3
