@@ -3,7 +3,7 @@
 Juniper MX 204 Chassis Alarm [Python Script]
 
 # Description:
-This script is written for Juniper MX204 chassis alarm (Red and Yellow state).
+This script is written for monitoring Juniper MX204 chassis alarm (Red and Yellow state) via SNMP.
 
 Juniper Chassis Alarm Red State OID: .1.3.6.1.4.1.2636.3.4.2.3.1.0
 
